@@ -12,8 +12,8 @@ The goal is usually to **gain unauthorized access, extract hidden data, or bypas
 ---
 
 ## How to get Started
-Before diving in, make sure you:
-- Watch CS50's lectures 6, 7, 8, 9, and complete the assignments to get a basic knowledge of web 
+There is no hard and fast rule to follow the order, but roughly, do these in the given order
+- Watch CS50's lectures of weeks 6, 7, 8, 9, and complete the assignments to get a basic knowledge of web 
 - Understanding of **HTTP (requests, responses, headers, cookies)** refer: [TOP's lesson](https://www.theodinproject.com/lessons/foundations-how-does-the-web-work)
 - Using a browser’s **developer tools** 
 - Complete [Linux Luminarium](https://pwn.college/linux-luminarium/) to get comfortable with the terminal (Linux or macOS)
@@ -108,7 +108,10 @@ Do not attempt to exploit systems without **explicit permission**.
 - Practice on free platforms like **picoCTF**.
 - Start with simple challenges (info disclosure, basic SQLi).
 - Slowly progress to advanced topics (blind SQLi, chained XSS, logic flaws).
-- Find people 
 ---
 
+This might seem a lot, but you don't have to do all this in a single day or a single month. It is all about starting, you might even find a new hobby, who knows?
+Find people who share the same interest, this will give you motivation to keep going. Form a team and play CTFs with them.
+If you really want to go deep into this, get more experience with web dev as well.
+I would suggest [TOP](https://www.theodinproject.com) for the same, first complete the foundations, in 1 month or so, then move on to databases and node/express course. Do the others if you really wish to.
 Happy hacking! 🕵️‍♂️
