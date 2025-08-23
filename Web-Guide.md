@@ -12,15 +12,15 @@ The goal is usually to **gain unauthorized access, extract hidden data, or bypas
 ---
 
 ## How to get Started
-Before diving in, make sure you are comfortable with:
-- Watch CS50's lectuce 6, 7, 8, 9 and complete the assignments to get a basic knowledge of web 
+Before diving in, make sure you:
+- Watch CS50's lectures 6, 7, 8, 9, and complete the assignments to get a basic knowledge of web 
 - Understanding of **HTTP (requests, responses, headers, cookies)** refer: [TOP's lesson](https://www.theodinproject.com/lessons/foundations-how-does-the-web-work)
 - Using a browser’s **developer tools** 
-- Complete [Linux Luminarium](https://pwn.college/linux-luminarium/) to get comfortable with the terminal (linux or macos)
+- Complete [Linux Luminarium](https://pwn.college/linux-luminarium/) to get comfortable with the terminal (Linux or macOS)
 - Start solving challenges on [PicoCTF](https://play.picoctf.org/practice)
-- Explore vulnerabilites on [Portswigger Web Security Academy](https://portswigger.net/web-security/learning-paths), start with xss, sqli, file upload vulnerabilites,authentication vulnerabilites and gradually dig deeper into those topics.
-- Give beginner level CTFs from [CTFtime](https://ctftime.org/)
-- Read writeups for CTFs and read bug bounty reports.
+- Explore vulnerabilities on [Portswigger Web Security Academy](https://portswigger.net/web-security/learning-paths), start with XSS, SQLi, file upload vulnerabilities, and authentication vulnerabilities, and gradually dig deeper into those topics.
+- Give beginner-level CTFs from [CTFtime](https://ctftime.org/)
+- Read write-ups for CTFs and read bug bounty reports.
 ---
 
 
@@ -63,8 +63,8 @@ Before diving in, make sure you are comfortable with:
 ---
 
 ## 🚀 Methodology
-1. **Reconnaissance** – Look for endpoints, parameters, hidden files, sinks where user input is going.
-2. **Input Testing** – Look at the source code, try to find where input is going and try payloads related to the sink
+1. **Reconnaissance** – Look for endpoints, parameters, hidden files, and sinks on the GUI where user input is going.
+2. **Input Testing** – Look at the source code, try to code that deals with the input, and try payloads related to the sink
 3. **Manipulate Requests** – Modify headers, cookies, and payloads.
 4. **Identify Vulnerabilities** – See how the application responds.
 5. **Exploit & Extract** – Use tools or manual techniques to retrieve sensitive data.
@@ -77,19 +77,19 @@ Before diving in, make sure you are comfortable with:
 - [HackTricks](https://book.hacktricks.xyz/)
 - CTF Platforms: [picoCTF](https://picoctf.org/)
 - [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
-- Search on [google](https://www.google.com/) for CTF writups and bug bounty reports for any topic you wish to learn
-- For totally new topics, google them and learn about the technology before its vulnerabilities, for 
+- Search on [Google](https://www.google.com/) for CTF write-ups and bug bounty reports for any topic you wish to learn
+- For totally new topics, Google them and learn about the technology before its vulnerabilities, for 
 ---
 
 ## ✅ Tips for Beginners
 - Always start with **manual testing** before automated tools.
 - Learn to read error messages carefully.
 - Keep practicing on CTF platforms.
-- Google more than you chatgpt, as you get more advanced, google will always be the one to come in clutch, not chatgpt.
+- Use Google more than ChatGPT, as you get more advanced, Google will always be the one to come in clutch, not ChatGPT.
 
 ---
 
-## Some interesting writeups/ bug bounty reports:
+## Some interesting write-ups/ bug bounty reports:
 - [pyjail](https://halb.it/posts/bluehens-pyjail/)
 - [Proton mail vulnerability](https://www.sonarsource.com/blog/code-vulnerabilities-leak-emails-in-proton-mail/)
 - [Double Dash SQLi](https://www.sonarsource.com/blog/double-dash-double-trouble-a-subtle-sql-injection-flaw/)
