@@ -41,7 +41,7 @@ There is no hard and fast rule to follow the order, but roughly, do these in the
 - Injecting malicious JavaScript
 - Example: `<script>alert(1)</script>`
 - Used to steal cookies or perform actions on behalf of a victim
-- Amazing resource: [text](https://aszx87410.github.io/beyond-xss/en/)
+- Amazing resource: [XSS series by Huli](https://aszx87410.github.io/beyond-xss/en/)
 
 ### 4. **Command Injection**
 - Input directly executed on the server
@@ -138,7 +138,14 @@ Do not attempt to exploit systems without **explicit permission**.
 - Practice on free platforms like **picoCTF**.
 - Start with simple challenges (info disclosure, basic SQLi).
 - Slowly progress to advanced topics (blind SQLi, chained XSS, logic flaws).
-- Getting started with docker, start when you have had some experience. [Docker tutorial for beginners](https://www.youtube.com/watch?v=b0HMimUb4f0), [Docker Documentation](https://docs.docker.com/)
+- Getting started with docker, start when you have had some experience. [Docker tutorial for beginners](https://www.youtube.com/watch?v=b0HMimUb4f0), [Docker Documentation](https://docs.docker.com/) 
+---
+
+### Why run the challenge locally? (for intermediate skill players)
+- Can tweak the server code to debug your exploit.
+- Lets you add debugging prints/logs to see how inputs are being processed.
+- When there are many filters, you can test your exploit for each filter one by one before combining them.
+- Many a times, the CTF platform allows you to access the challenge site by making an instance which expires in some amount of time, so it is more convenient to run the challenge on your own machine without any such time limit. 
 ---
 
 This might seem a lot, but you don't have to do all this in a single day or a single month. It is all about starting, you might even find a new hobby, who knows?
