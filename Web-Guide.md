@@ -15,9 +15,10 @@ The goal is usually to **gain unauthorized access, extract hidden data, or bypas
 There is no hard and fast rule to follow the order, but roughly, do these in the given order
 - Watch CS50's lectures of weeks 6, 7, 8, 9, and complete the assignments to get a basic knowledge of web 
 - Understanding of **HTTP (requests, responses, headers, cookies)** refer: [TOP's lesson](https://www.theodinproject.com/lessons/foundations-how-does-the-web-work)
+- Understanding **frontend and backend** [TOP's lesson](https://www.theodinproject.com/lessons/nodejs-introduction-to-the-back-end)
 - Using a browser’s **developer tools** 
 - Complete [Linux Luminarium](https://pwn.college/linux-luminarium/) to get comfortable with the terminal (Linux or macOS)
-- Start solving challenges on [PicoCTF](https://play.picoctf.org/practice)
+- Start solving challenges on [PicoCTF](https://play.picoctf.org/practice), [websec.fr](https://websec.fr/)
 - Explore vulnerabilities on [Portswigger Web Security Academy](https://portswigger.net/web-security/learning-paths), start with XSS, SQLi, file upload vulnerabilities, and authentication vulnerabilities, and gradually dig deeper into those topics.
 - Give beginner-level CTFs from [CTFtime](https://ctftime.org/)
 - Read write-ups for CTFs and read bug bounty reports.
@@ -64,7 +65,7 @@ There is no hard and fast rule to follow the order, but roughly, do these in the
 
 ## 🚀 Methodology
 1. **Reconnaissance** – Look for endpoints, parameters, hidden files, and sinks on the GUI where user input is going.
-2. **Input Testing** – Look at the source code, try to code that deals with the input, and try payloads related to the sink
+2. **Input Testing** – Look at the [source code](https://www.sonarsource.com/learn/source-code/), try to code that deals with the input, and try payloads related to the sink
 3. **Manipulate Requests** – Modify headers, cookies, and payloads.
 4. **Identify Vulnerabilities** – See how the application responds.
 5. **Exploit & Extract** – Use tools or manual techniques to retrieve sensitive data.
@@ -86,7 +87,36 @@ There is no hard and fast rule to follow the order, but roughly, do these in the
 - Learn to read error messages carefully.
 - Keep practicing on CTF platforms.
 - Use Google more than ChatGPT, as you get more advanced, Google will always be the one to come in clutch, not ChatGPT.
+---
 
+## 🔑 Challenge Solving Tips
+
+### 🔍 Look for Hints
+- Check the **challenge name** and **description** for clues.  
+  - Example:  
+    - A challenge named **"jawt"** may indicate a **JWT vulnerability**.  
+    - A challenge with **"sql"** in the name may point to **SQL injection**.  
+
+### 📦 Frameworks & Versions
+- Pay attention to framework or library versions (if revealed in source code).  
+- Older or unpatched versions often have **known vulnerabilities**.  
+
+### ⚠️ Common Vulnerable Practices
+Be on the lookout for insecure coding patterns such as:  
+
+1. **XSS (Cross-Site Scripting)** → Direct concatenation of user input into HTML (e.g., `innerHTML`).  
+2. **SQL Injection** → Direct concatenation of user input into database queries.  
+3. **Command Injection** → Direct concatenation of user input into OS commands.  
+4. **SSTI (Server-Side Template Injection)** → Use of functions like `render_template_string` or similar in other frameworks.  
+5. **Prototype Pollution** → Using deep merge with unvalidated user input.  
+
+### 🧠 Logic Flaws
+- In better challenges, the vulnerability may be a **logic flaw** rather than a direct injection.  
+- Examples: authentication bypass, role misconfiguration, race conditions, or unintended workflow abuse.  
+
+### Run the Challenge Locally
+- Get an understanding of dockerfile and docker-compose to run the challenge locally after you get some experience.
+- It can help you debug the exploit properly.
 ---
 
 ## Some interesting write-ups/ bug bounty reports:
@@ -108,6 +138,7 @@ Do not attempt to exploit systems without **explicit permission**.
 - Practice on free platforms like **picoCTF**.
 - Start with simple challenges (info disclosure, basic SQLi).
 - Slowly progress to advanced topics (blind SQLi, chained XSS, logic flaws).
+- Getting started with docker, start when you have had some experience. [Docker tutorial for beginners](https://www.youtube.com/watch?v=b0HMimUb4f0), [Docker Documentation](https://docs.docker.com/)
 ---
 
 This might seem a lot, but you don't have to do all this in a single day or a single month. It is all about starting, you might even find a new hobby, who knows?
