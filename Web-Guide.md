@@ -13,7 +13,7 @@ The goal is usually to **gain unauthorized access, extract hidden data, or bypas
 
 ## How to get Started
 There is no hard and fast rule to follow the order, but roughly, do these in the given order
-- Watch CS50's lectures of weeks 6, 7, 8, 9, and complete the assignments to get a basic knowledge of web 
+- Watch [CS50](https://cs50.harvard.edu/x/)'s lectures of weeks 6, 7, 8, 9, and complete the assignments to get a basic knowledge of web 
 - Understanding of **HTTP (requests, responses, headers, cookies)** refer: [TOP's lesson](https://www.theodinproject.com/lessons/foundations-how-does-the-web-work)
 - Understanding **frontend and backend** [TOP's lesson](https://www.theodinproject.com/lessons/nodejs-introduction-to-the-back-end)
 - Using a browser’s **developer tools** 
@@ -128,12 +128,6 @@ Be on the lookout for insecure coding patterns such as:
 - Discover more for yourself!
 ---
 
-## ⚠️ Disclaimer
-This guide is for **educational purposes only**.  
-Do not attempt to exploit systems without **explicit permission**.
-
----
-
 ### 🎯 Next Steps
 - Practice on free platforms like **picoCTF**.
 - Start with simple challenges (info disclosure, basic SQLi).
@@ -148,8 +142,21 @@ Do not attempt to exploit systems without **explicit permission**.
 - Many a times, the CTF platform allows you to access the challenge site by making an instance which expires in some amount of time, so it is more convenient to run the challenge on your own machine without any such time limit. 
 ---
 
+### Writing solve scripts (for intermediate-advanced players)
+- Sometimes it becomes too tedious to give inputs to the site, this is where the power of python comes handy.
+- For example, you might have to send a json, which must be inside quotes, and the keys are integer strings, for some other non sense, this is very difficult to craft by hand.
+- You can use python to craft your payloads and also send them.
+- Resources: [realpython's guide](https://realpython.com/python-requests), [requests documentation](https://requests.readthedocs.io/en/latest/user/quickstart/)
+
+
 This might seem a lot, but you don't have to do all this in a single day or a single month. It is all about starting, you might even find a new hobby, who knows?
 Find people who share the same interest, this will give you motivation to keep going. Form a team and play CTFs with them.
 If you really want to go deep into this, get more experience with web dev as well.
 I would suggest [TOP](https://www.theodinproject.com) for the same, first complete the foundations, in 1 month or so, then move on to databases and node/express course. Do the others if you really wish to.
 Happy hacking! 🕵️‍♂️
+
+## ⚠️ Disclaimer
+This guide is for **educational purposes only**.  
+Do not attempt to exploit systems without **explicit permission**.
+
+---
