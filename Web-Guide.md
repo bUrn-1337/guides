@@ -1,12 +1,12 @@
 # Getting Started with Web Exploitation
 
-Web exploitation is a core category in Capture the Flag (CTF) competitions and real-world security testing.  
+Web exploitation is a core category in [CTFs](https://dev.to/atan/what-is-ctf-and-how-to-get-started-3f04) and real-world security testing.  
 This guide will walk you through the basics, common vulnerabilities, and essential tools to help you get started.
 
 ---
 
 ## 🌐 What is Web Exploitation?
-Web exploitation involves finding and leveraging vulnerabilities in web applications.  
+[Web exploitation](https://ctf101.org/web-exploitation/overview/) involves finding and leveraging vulnerabilities in web applications.  
 The goal is usually to **gain unauthorized access, extract hidden data, or bypass protections**.
 
 ---
@@ -18,6 +18,8 @@ There is no hard and fast rule to follow the order, but roughly, do these in the
 - Understanding **frontend and backend** [TOP's lesson](https://www.theodinproject.com/lessons/nodejs-introduction-to-the-back-end)
 - Using a browser’s **developer tools** 
 - Complete [Linux Luminarium](https://pwn.college/linux-luminarium/) to get comfortable with the terminal (Linux or macOS)
+- Read about what a CTF is [atan's blog](https://dev.to/atan/what-is-ctf-and-how-to-get-started-3f04)
+- See what Web Exploitation is [ctf101](https://ctf101.org/web-exploitation/overview/)
 - Start solving challenges on [PicoCTF](https://play.picoctf.org/practice), [websec.fr](https://websec.fr/)
 - Explore vulnerabilities on [Portswigger Web Security Academy](https://portswigger.net/web-security/learning-paths), start with XSS, SQLi, file upload vulnerabilities, and authentication vulnerabilities, and gradually dig deeper into those topics.
 - Give beginner-level CTFs from [CTFtime](https://ctftime.org/)
@@ -78,6 +80,8 @@ There is no hard and fast rule to follow the order, but roughly, do these in the
 - [HackTricks](https://book.hacktricks.xyz/)
 - CTF Platforms: [picoCTF](https://picoctf.org/)
 - [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+- [Jorian's book](https://book.jorianwoltjer.com/web/enumeration)
+Ye dono are good starting points if you don't know the theory yet
 - Search on [Google](https://www.google.com/) for CTF write-ups and bug bounty reports for any topic you wish to learn
 - For totally new topics, Google them and learn about the technology before its vulnerabilities, for 
 ---
@@ -120,6 +124,7 @@ Be on the lookout for insecure coding patterns such as:
 ---
 
 ## Some interesting write-ups/ bug bounty reports:
+- [SMP vulnerability exploit by InfoSecIITR](https://infoseciitr.in/2022-06-05-exploitation-at-smp-iitr/)
 - [pyjail](https://halb.it/posts/bluehens-pyjail/)
 - [Proton mail vulnerability](https://www.sonarsource.com/blog/code-vulnerabilities-leak-emails-in-proton-mail/)
 - [Double Dash SQLi](https://www.sonarsource.com/blog/double-dash-double-trouble-a-subtle-sql-injection-flaw/)
